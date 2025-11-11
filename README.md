@@ -19,6 +19,7 @@ Future Enhancements
 
 
 🎯 Overview
+
 The Doctor Survey Targeting System is an intelligent healthcare analytics platform that analyzes doctor engagement patterns to predict optimal times for conducting surveys and seminars. By leveraging machine learning algorithms and historical activity data, the system identifies which doctors are most likely to be active at specific hours, enabling:
 
 Targeted Email Campaigns: Send invitations at optimal times for maximum response
@@ -27,6 +28,7 @@ Improved Engagement: Increase survey participation rates through data-driven tar
 Time-Zone Awareness: Account for regional differences in doctor availability
 
 🎓 Problem Statement
+
 Healthcare platforms conducting doctor surveys face significant challenges:
 
 Low Response Rates: Generic survey invitations result in poor participation
@@ -35,7 +37,9 @@ Resource Wastage: Inefficient use of communication channels
 Limited Insights: No data-driven approach to understand doctor availability patterns
 
 Solution: Predict the top 20 doctors most likely to be active at any given hour, enabling targeted outreach with up to 99.3% AUC accuracy.
+
 📊 Dataset
+
 Source
 Dummy dataset of 1,000 US doctors (NPIs) collected from a healthcare platform on March 8, 2025.
 Structure
@@ -56,6 +60,7 @@ Most Common Specialty: Oncology (~200 doctors)
 Time Range: 06:00 - 22:46 (across all sessions)
 
 ✨ Key Features
+
 1. Intelligent Time Prediction
 
 Predicts top 20 doctors likely to attend at any specified hour (0-23)
@@ -94,6 +99,7 @@ Regional and specialty distribution plots
 
 
 🛠️ Technology Stack
+
 Python Stack
 
 Core: Python 3.8+, Pandas, NumPy
@@ -146,6 +152,7 @@ Web Interface: Streamlit app for user interaction and CSV export
 <img width="802" height="518" alt="image" src="https://github.com/user-attachments/assets/162685be-1387-4442-ae43-74c7e3f1bd17" />
 
 📥 Installation
+
 Prerequisites
 bashPython 3.8 or higher
 R 4.0 or higher (optional, for R implementation)
@@ -185,6 +192,7 @@ Doctor_Survey/
 └── streamlit_app.py                       # Web UI (if separated from notebook)
 ```
 🚀 Usage
+
 Running the Jupyter Notebook
 bash# Start Jupyter
 jupyter notebook
