@@ -91,7 +91,6 @@ Regional and specialty distribution plots
 
 <img width="810" height="683" alt="image" src="https://github.com/user-attachments/assets/bf4180e6-fa1e-4b31-bbaf-0ca68f491d85" />
 
-<img width="715" height="577" alt="image" src="https://github.com/user-attachments/assets/c0423f67-977c-4cd3-ae4c-574b899a9787" />
 
 🛠️ Technology Stack
 Python Stack
